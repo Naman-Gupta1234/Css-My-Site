@@ -38,6 +38,16 @@ hr {
     margin:100 auto;
 }
 
+a{
+    color:#11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px 30px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    color:#eaf6f6;
+}
 .top-container {
     background-color: #E4F6F6;
     position: relative;
@@ -110,8 +120,12 @@ hr {
     background-color: #66BFBF;
 }
 
-.footer {
+.copyright {
     color: #eaf6f6;
+    font-family: 'Montserrat', sans-serif;
+    font-size:0.75rem;
+    padding:20px 0;
+    margin-top: 10px;
 }
 
 .middle-container {
