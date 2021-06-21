@@ -3,8 +3,13 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     color: #40514e;
+    
 }
 
+p{
+    line-height: 2;
+
+}
 h1 {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
@@ -21,6 +26,16 @@ h2 {
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
+}
+
+hr {
+    height: 1px;
+    border-style: none;
+    border-color: #EAF6F6;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 7px;
+    margin:100 auto;
 }
 
 .top-container {
@@ -59,7 +74,6 @@ h3 {
     width: 50%;
     margin: 100px auto;
     text-align: left;
-    line-height: 2;
 }
 
 .ux {
@@ -85,14 +99,7 @@ h3 {
     padding-bottom: 30px;
 }
 
-hr {
-    height: 1px;
-    border-style: none;
-    border-color: #EAF6F6;
-    border-top-style: dotted;
-    width: 5%;
-    border-width: 7px;
-}
+
 
 .make-strong {
     font-weight: bold;
@@ -109,6 +116,9 @@ hr {
 
 .middle-container {
     padding: 100px;
+}
+.connect{
+    margin: 40px auto 60px;
 }
 .btn {
     background: #11CDD4;
